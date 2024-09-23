@@ -1,11 +1,42 @@
+@charset "UTF-8";
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f4f4f4;
 }
 
+.fixed-right {
+    position: fixed;       /* Fixa os ícones */
+    top: 10%;              /* Centraliza verticalmente */
+    right: 10px;          /* Distância da borda direita */
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    z-index: 1000;        /* Garante que os ícones fiquem acima de outros elementos */
+}
+
+.fixed-right a {
+    display: block;        /* Faz cada ícone ocupar uma linha */
+    margin-bottom: 15px;  /* Espaçamento entre os ícones */
+}
+
+.fixed-right img {
+    width: 40px;          /* Largura dos ícones */
+    height: 40px;         /* Altura dos ícones */
+    transition: transform 0.3s; /* Animação ao passar o mouse */
+    border-radius: 50%;
+}
+
+.fixed-right img:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do ícone ao passar o mouse */
+}
+
+
 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 5px 5px 10px black;
     margin-top: 20px;
+    border-radius: 10%;
+    
 }
 
 /* Contêiner que une o carrossel e a imagem panorâmica */
