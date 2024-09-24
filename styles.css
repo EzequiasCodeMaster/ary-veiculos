@@ -8,8 +8,8 @@ body {
 
 .fixed-right {
     position: fixed;       /* Fixa os ícones */
-    top: 10%;              /* Centraliza verticalmente */
-    right: 10px;          /* Distância da borda direita */
+    top: 6%;              /* Centraliza verticalmente */
+    right: 4%;          /* Distância da borda direita */
     transform: translateY(-50%); /* Centraliza verticalmente */
     z-index: 1000;        /* Garante que os ícones fiquem acima de outros elementos */
 }

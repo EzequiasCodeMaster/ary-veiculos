@@ -6,8 +6,8 @@
         font-size: 3em;
     }
     .fixed-right {
-        top: 10%; /* Ajusta a posição dos ícones */
-        right: 5px; /* Ajusta a distância da borda direita */
+        top: 6%; /* Ajusta a posição dos ícones */
+        right: 10px; /* Ajusta a distância da borda direita */
     }
 
     .fixed-right img {
@@ -38,8 +38,8 @@
     }
     
     .fixed-right {
-        top: 15%; /* Mantém a posição para tablets */
-        right: 10px; /* Mantém a distância da borda direita */
+        top: 9%; /* Mantém a posição para tablets */
+        right: 15px; /* Mantém a distância da borda direita */
     }
 
     .fixed-right img {
@@ -78,8 +78,8 @@
     }
     
     .fixed-right {
-        top: 12%; /* Mantém a posição para tablets */
-        right: 10px; /* Mantém a distância da borda direita */
+        top: 7%; /* Mantém a posição para tablets */
+        right: 15px; /* Mantém a distância da borda direita */
     }
 
     .fixed-right img {
@@ -110,8 +110,8 @@
 /* Desktops */
 @media (min-width: 1920px) {
     .fixed-right {
-        top: 10%; /* Mantém a posição para desktops */
-        right: 10px; /* Mantém a distância da borda direita */
+        top: 6%; /* Mantém a posição para desktops */
+        right: 15px; /* Mantém a distância da borda direita */
     }
 
     .car-display {
