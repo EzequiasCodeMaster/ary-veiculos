@@ -3,7 +3,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: rgba(0, 0, 0, 0.747);
 }
 
 .fixed-right {
@@ -32,11 +32,12 @@ body {
 
 
 h1 {
+    color: rgba(255, 255, 255, 0.815);
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-shadow: 5px 5px 10px black;
     margin-top: 20px;
     border-radius: 10%;
-    
+    text-shadow: 5px 2px 5px black;
 }
 
 /* Contêiner que une o carrossel e a imagem panorâmica */
